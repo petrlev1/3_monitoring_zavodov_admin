@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title></title>
+
+<meta charset="utf-8">
+
+<script src="js/jquery.min.js"></script>
+        
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="js/bootstrap.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        
+	</head>
+
+	<body>
+
+       
+
+        <!-- Modal - add_org -->
+
+<div id="add_org" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Добавление организации</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Наименование юр. лица</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Краткое наименование</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Код организации</p>
+            <input type="text" class="form1" value="">
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - add_org -->
+
+
+        <!-- Modal - edit_org -->
+
+<div id="edit_org" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Редактирование организации ОАО РосСпиртПром</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Наименование юр. лица</p>
+            <input type="text" class="form1" value="ОАО РосСпиртПром">
+            </div>
+            <div>
+            <p>Краткое наименование</p>
+            <input type="text" class="form1" value="РСП">
+            </div>
+            <div>
+            <p>Код организации</p>
+            <input type="text" class="form1" value="">
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - edit_org -->
+
+         <!-- Modal - del_org -->
+
+<div id="del_org" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title note_er">Удаление организации</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+            <h1>ОАО РосСпиртПром</h1>
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-danger btn-lg" style="float:left;">Удалить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - del_org -->
+
+
+        <!-- Modal - add_zavod -->
+
+<div id="add_zavod" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Добавление завода</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Наименование завода</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Код завода</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Широта</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Долгота</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Организация</p>
+                <select class="form1">
+    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+   </select>
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - add_zavod -->
+
+         <!-- Modal - edit_zavod -->
+
+<div id="edit_zavod" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Редактирование завода Крымская Водочная Компания</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Наименование завода</p>
+            <input type="text" class="form1" value="Крымская Водочная Компания">
+            </div>
+            <div>
+            <p>Код завода</p>
+            <input type="text" class="form1" value="2">
+            </div>
+            <div>
+            <p>Широта</p>
+            <input type="text" class="form1" value="44,934431">
+            </div>
+            <div>
+            <p>Долгота</p>
+            <input type="text" class="form1" value="34,934431">
+            </div>
+            <div>
+            <p>Организация</p>
+                <select class="form1">
+    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+                    <option value="1">ОАО РосСпиртПром</option>
+   </select>
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - edit_zavod -->
+
+        <!-- Modal - del_zavod -->
+
+<div id="del_zavod" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title note_er">Удаление завода</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+            <h1>Крымская Водочная Компания</h1>
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-danger btn-lg" style="float:left;">Удалить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - del_zavod -->
+
+        <!-- Modal - add - tochka ucheta -->
+
+<div id="add_tochka_ucheta" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Добавление точки учета</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Номер ящика</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>TeamViewer ИД</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>TeamViewer Пароль</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Завод</p>
+                <select class="form1">
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+   </select>
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - add - tochka ucheta -->
+
+        <!-- Modal - edit - tochka ucheta -->
+
+<div id="edit_tochka_ucheta" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title">Редактирование точки учета</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+             <div>
+            <p>Номер ящика</p>
+            <input type="text" class="form1" value="100">
+            </div>
+            <div>
+            <p>TeamViewer ИД</p>
+            <input type="text" class="form1" value="967460451">
+            </div>
+            <div>
+            <p>TeamViewer Пароль</p>
+            <input type="text" class="form1" value="">
+            </div>
+            <div>
+            <p>Завод</p>
+                <select class="form1">
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+                    <option value="1">ALCOSPOT АВТО</option>
+   </select>
+            </div>
+
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-success btn-lg" style="float:left;">Сохранить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - edit - tochka ucheta -->
+
+        <!-- Modal - del_tochka_ucheta -->
+
+<div id="del_tochka_ucheta" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        <h4 class="modal-title note_er">Удаление точки учета</h4>
+
+      </div>
+      <div class="modal-body">
+
+        <!-- Modal content-->
+
+        <div class="formscont">
+            <h1>100</h1>
+                </div>
+
+        <!-- /Modal content-->
+
+      </div>
+
+      <div class="modal-footer">
+        <a href="#" class="btn-danger btn-lg" style="float:left;">Удалить</a><button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<!-- /Modal - del_tochka_ucheta -->
+
+
+
+       
+
+
+   <div class="content_all">
+
+   <div class="head">
+       <ul>
+   <li style="background-color:#fff; width:1px;"><div class="logo"><a href="#"><img src="css/img/logo.png"></a></div><a href="#" class="logo_tit">Мониторинг заводов</a></li>
+   <li style="text-align:right"><div class="head_menu"><a href="#">test999 [Выйти]</a></div></li>
+           </ul>
+   </div>
+
+        <nav>
+   <ul>
+   <li><a href="#" class="active-it">Организации</a></li><li class="menu_lines2"></li><li><a href="#">Заводы</a></li><li class="menu_lines2"></li><li><a href="#">Точки учета</a></li><li class="menu_lines2"></li><li><a href="#">Линии</a></li><li class="menu_lines2"></li><li><a href="#">Точки учета пользователей</a></li>
+   </ul>
+   </nav>
+        
+        <div class="content">
+
+   <div class="cont_table">
+                        <div class="table1">
+                <ul class="thead">
+                    <li><h1>Организация</h1>
+                        <a href="" class="btn1_lg" data-toggle="modal" data-target="#add_org" style="margin-top:10px; display:inline-block"><span>+</span>Добавить организацию</a>
+                    </li>
+                    <li>Краткое наименование</li><li style="text-align:center; width:1px;">Ред.</li>
+                </ul>
+                <ul>
+                    <li>ОАО РосСпиртПром</li><li>РСП</li><li><div class="ic_block"><a href="" data-toggle="modal" data-target="#edit_org" class="ic_edit"></a><a href="" data-toggle="modal" data-target="#del_org" class="ic_del"></a></div></li>
+                </ul>         
+                           
+            </div>
+                        <div class="table_foot"><a href="" class="btn1_lg" data-toggle="modal" data-target="#add_org" style="margin-top:10px; margin-bottom:10px; display:inline-block"><span>+</span>Добавить организацию</a>
+                        </div>
+       
+       </div>
+
+            <br><br>
+
+            <div class="cont_table">
+                        <div class="table1">
+                <ul class="thead">
+                    <li><h1>Завод</h1>
+                        <a href="" class="btn1_lg" data-toggle="modal" data-target="#add_zavod" style="margin-top:10px; display:inline-block"><span>+</span>Добавить завод</a>
+                    </li>
+                    <li>Организация</li><li style="text-align:center; width:1px;">Ред.</li>
+                </ul>
+                <ul>
+                    <li>Крымская Водочная Компания</li><li>ОАО РосСпиртПром</li><li><div class="ic_block"><a href="" data-toggle="modal" data-target="#edit_zavod" class="ic_edit"></a><a href="" data-toggle="modal" data-target="#del_zavod" class="ic_del"></a></div></li>
+                </ul>         
+                           
+            </div>
+                        <div class="table_foot"><a href="" class="btn1_lg" data-toggle="modal" data-target="#add_zavod" style="margin-top:10px; margin-bottom:10px; display:inline-block"><span>+</span>Добавить завод</a>
+                        </div>
+       
+       </div>
+
+            <br><br>
+
+            <div class="cont_table">
+                        <div class="table1">
+                <ul class="thead">
+                    <li><h1>Серийный №</h1>
+                        <a href="" class="btn1_lg" data-toggle="modal" data-target="#add_tochka_ucheta" style="margin-top:10px; display:inline-block"><span>+</span>Добавить точку учета</a>
+                    </li>
+                    <li>Наименование завода</li><li>TeamViewer ID</li><li>ID	TeamViewer Пароль</li><li style="text-align:center; width:1px;">Ред.</li>
+                </ul>
+                <ul>
+                    <li>100</li><li>ALCOSPOT АВТО</li><li>967460451</li><li></li><li><div class="ic_block"><a href="" data-toggle="modal" data-target="#edit_tochka_ucheta" class="ic_edit"></a><a href="" data-toggle="modal" data-target="#del_tochka_ucheta" class="ic_del"></a></div></li>
+                </ul>         
+                           
+            </div>
+                        <div class="table_foot"><a href="" class="btn1_lg" data-toggle="modal" data-target="#add_tochka_ucheta" style="margin-top:10px; margin-bottom:10px; display:inline-block"><span>+</span>Добавить точку учета</a>
+                        </div>
+       
+       </div>
+
+                 
+                    </div>
+                
+            </div>
+        
+    
+</body>
+
+</html>
